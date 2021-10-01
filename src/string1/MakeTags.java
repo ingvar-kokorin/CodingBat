@@ -9,6 +9,7 @@ package string1;
  * makeTags("i", "Hello") → "<i>Hello</i>"
  * makeTags("cite", "Yay") → "<cite>Yay</cite>"
  */
+
 public class MakeTags {
     public String makeTags(String tag, String word) {
         return String.format("<%1$s>%2$s</%1$s>", tag, word);
